@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2> <!--Listas Ordenadas são aquelas que a ordem fazem a diferença-->
+    <ol type="I"> <!--Usando o parâmetro start dentro do ol, você pode mudar o número em que a lista começa, por exemplo: <ol type="I" start="3">, vai começar com o número três-->
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Lavar as roupas</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar pra casa</li>
+        <li>Tomar banho</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <!--E se quiser alterar ou adicionar algo, é so trocar o li-->
+    <h2>Listas não Ordenadas</h2>
+    <ul type="circle">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Café</li>
+        <li>Tomate</li>
+        <li>Macarrão</li>
+        <li>Arroz</li>
+        <li>Carne</li>
+        <li>Suco</li>
+        <li>Verdura</li>
+        <li>Bolacha</li>
+    </ul>
+    <!--A mesma coisa do ol, mas o VSCODE não reconhece o parâmetro "type", então precisamos digitar tudo manualmente, os tipos são: disc, circle e square-->
+    <h2>Minhas comidas favoritas</h2>
+    <ol>
+        <li>Doces</li>
+        <ol type="a">
+            <li>Bolo</li>
+            <li>Brigadeiro</li>
+            <li>Chocolate</li>
+        </ol>
+        <li>Salgadas</li>
+        <ol type="a" start="4"> <!--O correto é deixar abc, abc, separando as duas listas e não abc, def, mas isso a gente deixa por curiosidade-->
+            <li>Coxinha</li>
+            <li>Hambúrguer</li>
+            <li>Torta</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>SNES</li>
+        <ul type="square">
+            <li>Super Mario World</li>
+            <li>Donkey Kong</li>
+            <li>Mario Kart</li>
+            <li>Mario Bros</li>
+        </ul>
+        <li>PlayStation 2</li>
+        <ul type="square">
+            <li>Gta San Andreas</li>
+            <li>Lego Batman</li>
+            <li>Need for Speed: Most Wanted</li>
+            <li>Black</li>
+            <li>Call of Duty 2</li>
+            <li>Dragon Ball Budokai 3</li>
+            <li>Dragon Ball Budokai Tenkaichi 3</li>
+        </ul>
+        <li>PC</li>
+        <ul type="square">
+            <li>Splinter Cell</li>
+            <li>Gta</li>
+            <li>Europa Universalis 4</li>
+            <li>Hearts of Iron 4</li>
+            <li>Roblox</li>
+            <li>Assassin's Creed</li>
+            <ul type="circle">
+                <li>Assassin's Creed 3</li>
+                <li>Assassin's Creed Rogue</li>
+            </ul>
+            <li>Lego</li>
+            <li>Far Cry</li>
+        </ul>
+    </ol> <!--Segurando o alt, podemos selecionar varios de uma so vez, e escrever em todos eles, o que ajuda a alterar todos os ul pra ol ou o contrario-->
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML5</dt>
+        <dd>Linguagem de marcação para criação do conteúdo de um site.</dd>
+        <dt>CSS3</dt>
+        <dd>Linguagem de marcação para criação do design de um site/dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para criação de interatividade de um site.</dd>
+    </dl>
+</body>
+</html>

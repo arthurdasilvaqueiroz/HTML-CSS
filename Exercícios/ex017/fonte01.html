@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: 'Work Sans' Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in (polegada), px (píxels), pt (ponto), pc (paica).
+            
+            Medidas Relativas
+            em (altura do M), ex (altura-x), rem (relativa ao root, a fonte usada no body), vw (Largura da View Port), vh e %.
+
+            Mas usaremos muito o "em" e o "px" (recomendada pela W3C)
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: normal;
+            /* 
+            Pesos com palavra-chafe;
+            lighter, normal, bold e bolder, mas nem todas as fontes tem essas na sua família tipográfica, algumas tem só a normal e a bold, como a Arial, Helvetica... E tem algumas como a fonte 'Work Sans' que possui todos esses tipos de peso.
+
+            Pesos com variações numéricas
+            Vai de 100-900, 100 seria o lighter, 400 é o normal, 600 seria o bold, e 900 o bolder, a gente pode mexer e configurar isso com as variações numéricas, o que é bom para configurar manualmente, mas é bom fazer uma pesquisa da fonte usada para saber se ela tem ou não isso, tambem podemos usar o CTRL + SPACE no font-weight para ver as variações e palavras-chaves
+
+            */
+        }
+
+        h1{
+           font: italic bolder 3em 'Work Sans', sans-serif;
+            /* Usando shorthand podemos fazer essas 4 declarações que usamos DEMAIS em uma única linha, mas precisamo seguir uma ordem para colocar cada, que seria: font-style -> font-weight -> font-size -> font-family 
+            
+            No lugar de usarmos essas 4: 
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            
+            Usamos aquela acima, e não vai fazer diferença no site, além de que diminui a quantidade de linhas
+            */
+            
+        }
+
+        h2{
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem impedit eos ut, veniam ullam molestiae asperiores fugit cupiditate ipsam. Perferendis consectetur odit, expedita adipisci obcaecati fugit nisi aliquid in dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat architecto quis exercitationem voluptate consectetur officia at, dolor laborum, pariatur nisi ducimus eligendi repellat mollitia, quo unde ipsa voluptatum ut accusamus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas doloribus quia nihil blanditiis laborum! Fugiat, architecto, odit totam doloremque natus officiis in numquam ipsa excepturi, exercitationem corporis atque culpa!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo ducimus incidunt porro ipsam temporibus eaque quia ratione quos vero odit, totam quisquam autem aliquam sunt adipisci repellendus similique, cupiditate magnam?</p>
+</body>
+</html>

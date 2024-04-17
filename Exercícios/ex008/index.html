@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <style>
+        mark{
+            background-color: lime;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa Frase, vemos um <b>termo em negrito</b> usando a tag B</p> <!--A tag B, é uma tag Não Semântica, é um formato em negrito.-->
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong>usando a tag STRONG </p> <!--A tag STRONG, é uma semântica-->
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica).</p> <!--Foi usado CTRL + Shift + P, selecionando a frase, e apertando essas teclas, vamos ativar um menu, onde vamos pesquisar "Abb", e selecionar Wrap with Abbreviation, colocando a tag no espaço e dando enter, o que poupará tempo.-->
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica)</p> <!--As teclas mencionadas antes foram usadas aqui para criar a tag "p" e a tag "em"-->
+    <h2>Tags Adicionais para Formatação</h2>
+    <p>Podemos também criar <mark>um texto marcado</mark> usando a tag MARK.</p> <!--Para que a tag seja reconhecida, precisamos usar o CTRL + SHIFT + P, apenas digitando não faz o Vscode reconhece-la-->
+    <p>E no outro parágrafo temos <mark>outro texto marcado</mark> no final.</p> <!--Porém, a cor de um marca texto so funcionara nele se o style estiver dentro de mark, para a cor ser aplicado a todos, precisamos ir em head e usar style e mark{}-->
+    <h2>Texto Grande e Pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>pequeno nesse</small> parágrafo</p>
+    <h2>Texto Deletado</h2>
+    <p>Podemos marcar<del> um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado.</p>
+    <h2>Texto Inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois</p>
+    <p>Existe também o <u>sublinhado</u> com a tag U (não semântica)</p>
+    <h2>Texto Sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>2</sup>+3</p>
+    <h2>Texto Subscrito</h2>
+    <p>Para inserir coias do tipo H<sub>2</sub>0</p>
+    <h2>Trechos de Códigos</h2>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código-Fonte / Pré-Formatações</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p> <!--A fonte sem <code> não é mono espaçada, e sem <pre>, ela fica com alguns erros, então na hora de compartilhar seus codigos use <pre><code>-->
+        <pre>
+            <code>
+    num = int(input('Digite um número'))
+    if num % == 0:
+        print(f'número {num} é PAR')
+    else:
+        print(f'0 número {num} é ÍMPAR')
+    print('Fim do programa')
+            </code>
+        </pre>  <!--Pro seu código não ficar no meio com tantos espaços, selecione ele e dê SHIFT + TAB, isso vai apagar os espaços deles até ficar assim, e se quiser que ele vá para a frente com os espaços, aperte apenas TAB-->
+        <h2>Citações</h2>
+        <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q></p> <!--Colocando a tag Q, você está dando sentido, uma semântica, usando apenas as "" você só tá criando uma forma, não tem semântica, sentido de uma citação, usa o <q> quando for fazer uma citação, quando é uma coisa tipo, presta atenção nisso ou algo mais ou menos, usa as àspas-->
+        <h2>Citações Completas</h2>
+        <p>Segundo Maquiavel, no seu livro O Príncipe:</p>
+        <blockquote cite="https://books.google.com.br/books?id=FIrY8-IIcBgC&printsec=frontcover&hl=pt-BR&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false">
+            O homem é mau por natureza, a menos que precise ser bom.
+        </blockquote>
+        <h2>Abreviações</h2>
+        <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+        <h2>Texto Invertido</h2>
+        <p><bdo dir="ltr">Estou aprendendo a criar coisas em HTML.</bdo></p> <!--Left to Right (O normal sem alterar nada, ambos ltr e rtl não tem utilidade)-->
+        <p><bdo dir="rtl">Estou aprendendo a criar coisa em HTML</bdo></p> <!--Right to Left (Direita para a Esquerda)-->
+</body>
+</html>
