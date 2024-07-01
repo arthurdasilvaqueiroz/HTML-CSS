@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de Iframe</title>
+    <style>
+
+        iframe {
+            height: 400px;
+            width: 400px;
+            border: 1px groove black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Testando o uso de Iframe</h1>
+    <p>
+        Acessando o site do 
+
+        <!--Tamanho padrão de 300x150 < 300 de Largura e 150 de Altura -->
+        <iframe src="https://cursoemvideo.com" frameborder="1" width="500" height="500" scolling="no">
+            <a href="https://cursoemvideo.com" target="_blank">Cursoemvideo</a>
+        </iframe> para aprender a programar
+    </p>
+
+    <!--Alguns dispositivos celulares podem ser incompativeis com os iframes, então, se você quer ser minimamente uma boa pessoa, coloca um link entre a tag de abertura e fechamento, tudo entre elas é mostrado quando há alguma incompatibilidade, algo simples, basico e fácil de fazer que vai ser útil pra todo mundo.-->
+
+    <p>O site do 
+    <iframe src="https://arthurdasilvaqueiroz.github.io/projeto-cordel/" frameborder="0" height="500">
+        <a href="https://arthurdasilvaqueiroz.github.io/projeto-cordel/" target="_blank">projeto-cordel</a>
+    </iframe> também é muito legal!</p>
+
+    <p>E existem sites como o da 
+        <iframe src="https://www.google.com.br" frameborder="0">
+        </iframe> que tem proteção contra iframe</p>
+</body>
+</html>
