@@ -12,5 +12,5 @@
 
 <h3>Para conversar comigo:</h3>
 <p>
-<a href="https://instagram.com/pompao73" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="pompao73" height="30" width="40" /></a>
+<a href="https://instagram.com/arthur_dsqz" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="pompao73" height="30" width="40" /></a>
 </p>
