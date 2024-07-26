@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+ /* Configurações de Pcs */
+
+ body {
+    background-image: url(../imagens/back-pc.jpg);
+ }
+
+ main {
+   width: 450px;
+ }
+
+ #phone { display: none; }
+ #tablet { display: none; }
+ #pc { display: block; }
+ #tv { display: none; }
+ #print { display: none; }

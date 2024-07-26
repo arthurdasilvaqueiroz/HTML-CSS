@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+ /* Configurações de Tvs */
+
+ body {
+    background-image: url(../imagens/back-tv.jpg);
+ }
+
+ main {
+    width: 500px;
+ }
+
+ #phone { display: none; }
+ #tablet { display: none; }
+ #pc { display: none; }
+ #tv { display: block; }
+ #print { display: none; }

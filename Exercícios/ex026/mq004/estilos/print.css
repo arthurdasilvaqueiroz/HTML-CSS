@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+ /* Configurações de Impressoras */
+
+ 
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ body {
+    background-image: url(../imagens/back-print.jpg); /*Backgrounds não saem na impressão, o que torna isso desnecessário nesse projeto*/
+ }
+
+main {
+    width: 90vw;
+    border: 2px solid black;
+}
+
+main h1 {
+    text-shadow: none;
+    color: black;
+}
+
+
+main::after {
+    content: 'Essa impressão foi feita através do site www.cursoemvideo.com';
+    text-decoration: overline;
+}
+
+ #phone { display: none; }
+ #tablet { display: none; }
+ #pc { display: none; }
+ #tv { display: none; }
+ #print { display: block; }

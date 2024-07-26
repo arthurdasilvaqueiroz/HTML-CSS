@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+ /* Configuração de Tablets*/
+
+body {
+    background-image: url(../imagens/back-tablet.jpg);
+}
+
+main {
+    width: 425px;
+}
+
+#phone { display: none; }
+#tablet { display: block; }
+#pc { display: none; }
+#tv { display: none; }
+#print { display: none; }
